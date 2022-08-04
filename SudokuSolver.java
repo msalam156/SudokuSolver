@@ -39,7 +39,7 @@ public class SudokuSolver {
 	        if (column % 3 == 0 && column != 0) {
 	          System.out.print("|");
 	        }
-	        System.out.print(board[row][column]);
+	        System.out.print(board[row][column]+" ");
 	      }
 	      System.out.println();
 	    }
